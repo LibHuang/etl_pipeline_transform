@@ -1,0 +1,7 @@
+models:
+  -   name: product_items
+      columns:
+        - name: ID 
+          tests:
+            - unique
+            - not_null
